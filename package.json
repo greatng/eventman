@@ -1,0 +1,38 @@
+{
+  "name": "frontend-dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "~11.9.3",
+    "@emotion/styled": "~11.9.3",
+    "@fontsource/roboto": "~4.5.7",
+    "@mui/icons-material": "~5.8.4",
+    "@mui/material": "~5.8.7",
+    "@mui/system": "~5.8.7",
+    "@mui/x-data-grid": "~5.12.3",
+    "@mui/x-date-pickers": "~5.0.0-beta.0",
+    "bcrypt": "~5.0.1",
+    "cookies-next": "~2.1.1",
+    "dayjs": "~1.11.3",
+    "jsend": "~1.1.0",
+    "jsonwebtoken": "~8.5.1",
+    "mongoose": "~6.4.3",
+    "next": "~12.2.1",
+    "passport": "~0.6.0",
+    "passport-google-oauth2": "~0.2.0",
+    "prop-types": "~15.8.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "~7.33.1"
+  },
+  "devDependencies": {
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.10",
+    "postcss": "^8.4.14"
+  }
+}
